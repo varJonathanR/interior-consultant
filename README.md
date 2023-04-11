@@ -1,1 +1,1 @@
-# interior-consultant
+# Interior consultant
