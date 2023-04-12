@@ -9,6 +9,7 @@ This is my solution for 'Interior Consultant' project on [devChallenges.io](http
 - HTML
 - CSS (SCSS)
 - JavaScript
+- Grid
 
 ### Prevew_Img
 
