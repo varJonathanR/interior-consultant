@@ -1,13 +1,12 @@
 # interior-consultant
 
-3rd devChallenges project (Responsive Web Developer)
+### Overvew
 
-### What is it about?
+### Tools
 
-This is a devChallenges project on Responsive Web Desing, trying to simulate an indoor design-consulting page
+- HTML
+- CSS (SCSS)
+- JavaScript
 
-### What technology have I utilized?
+### Prevew_Img
 
-HTML, CSS (SCSS) & JavaScript
-
-### How did I do it?
