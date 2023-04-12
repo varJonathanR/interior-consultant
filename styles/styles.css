@@ -1,0 +1,193 @@
+@import url("https://fonts.googleapis.com/css2?family=Crimson+Pro:wght@200&family=Lora:wght@500;700&family=Montserrat:wght@400;700&display=swap");
+html {
+  color: #FFFFFF;
+  font-family: "Montserrat", sans-serif;
+}
+
+body {
+  background-color: #181719;
+}
+
+header {
+  display: flex;
+  padding: 1rem 2rem;
+  align-items: center;
+  justify-content: space-between;
+}
+header .logo {
+  padding: 0.5rem;
+  font-weight: 200;
+  font-family: "Crimson Pro", serif;
+  text-transform: uppercase;
+  border: 1px solid #FFFFFF;
+  border-radius: 5px;
+}
+header .nav-toggle {
+  display: none;
+  color: #FFFFFF;
+  background: none;
+  border: none;
+  font-size: 2rem;
+  padding: 0 1.2rem;
+  cursor: pointer;
+  line-height: 60px;
+}
+header .nav-menu {
+  list-style-type: none;
+  display: flex;
+  gap: 1.5rem;
+}
+header .nav-menu .li .a {
+  color: #FFFFFF;
+  text-decoration: none;
+}
+header .nav-menu .li .underline {
+  display: inline-block;
+  position: relative;
+}
+header .nav-menu .li .underline:after {
+  content: "";
+  position: absolute;
+  width: 100%;
+  height: 2px;
+  bottom: 0;
+  left: 0;
+  background-color: #FFFFFF;
+  transform: scaleX(0);
+  transform-origin: bottom right;
+  transition: transform 0.6s ease-in-out;
+}
+header .nav-menu .li .underline:hover:after {
+  transform: scaleX(1);
+  transform-origin: bottom left;
+}
+
+.main {
+  display: grid;
+  grid-template-columns: 40% 50%;
+  gap: 1rem;
+  align-items: center;
+}
+.main-left {
+  padding: 1rem;
+}
+.main-left h1 {
+  font-family: "Lora", serif;
+  font-weight: 500;
+  font-size: 3rem;
+}
+.main-left p {
+  font-weight: 400;
+  font-size: 1.2rem;
+}
+.main-left a {
+  text-decoration: none;
+  color: #FFFFFF;
+}
+.main-right {
+  padding: 1rem;
+}
+.main-right-hero {
+  width: 737px;
+  height: 555px;
+}
+.main-right-card {
+  width: 410px;
+  height: 190px;
+  padding: 1rem 2rem;
+  position: relative;
+  margin-top: -4rem;
+  margin-left: 12rem;
+  background-color: #181719;
+  border-radius: 5px;
+  box-shadow: 10px 10px 5px 0px rgba(8, 8, 8, 0.75);
+}
+.main-right-card-top {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+}
+.main-right-card-top img {
+  width: 70px;
+  height: 70px;
+  border-radius: 50%;
+}
+.main-right-card-top-author p {
+  color: #828282;
+}
+.main-right-card .info {
+  font-family: "Lora", serif;
+  font-weight: 700;
+  font-size: 1.5rem;
+}
+
+footer {
+  text-align: center;
+  padding: 1rem;
+  color: #A9A9A9;
+}
+footer a {
+  cursor: pointer;
+  text-decoration: none;
+  color: #A9A9A9;
+}
+
+@media screen and (max-width: 1024px) {
+  .main {
+    display: grid;
+    grid-template-columns: 100%;
+  }
+  .main-left p {
+    width: 80%;
+  }
+  .main-right {
+    place-items: center;
+  }
+  .main-right-hero {
+    width: 90%;
+    height: 80%;
+  }
+  .main-right-card {
+    margin-left: 2rem;
+    width: 70%;
+    height: 140px;
+  }
+  .main-right-card .info {
+    font-size: 1rem;
+  }
+}
+@media screen and (max-width: 767px) {
+  header {
+    height: 50px;
+  }
+  header .nav-toggle {
+    display: block;
+    z-index: 11;
+  }
+  header .nav-toggle:focus:not(:focus-visible) {
+    outline: none;
+  }
+  header .nav-menu {
+    flex-direction: column;
+    align-items: center;
+    font-size: 1.2rem;
+    margin: 0;
+    position: fixed;
+    left: 0;
+    top: 0;
+    width: 100%;
+    padding: 10rem 0;
+    height: calc(100% - 80px);
+    overflow-y: auto;
+    transition: left 0.3s;
+    background-color: #181719;
+    left: 100%;
+    z-index: 10;
+  }
+  header .nav-menu_visible {
+    left: 0;
+  }
+  .main-right-card .info {
+    font-size: 0.8rem;
+  }
+}/*# sourceMappingURL=styles.css.map */
