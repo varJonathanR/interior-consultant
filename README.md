@@ -1,6 +1,6 @@
 # interior-consultant
 
-### Overvew
+### Overview
 
 This is my solution for 'Interior Consultant' project on [devChallenges.io](https://devchallenges.io/)
 
