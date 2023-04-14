@@ -11,6 +11,6 @@ This is my solution for 'Interior Consultant' project on [devChallenges.io](http
 - JavaScript
 - Grid
 
-### Prevew_Img
+### Preview
 
 ![interior-consultant_prevew](https://github.com/varJonathanR/interior-consultant/blob/main/assets/interior-consultant_prevew.png)
