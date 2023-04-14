@@ -2,7 +2,7 @@
 
 ### Overview
 
-This is my solution for 'Interior Consultant' project on [devChallenges.io]([https://devchallenges.io/](https://devchallenges.io/challenges/Jymh2b2FyebRTUljkNcb))
+This is my solution for 'Interior Consultant' project on [devChallenges.io](https://devchallenges.io/challenges/Jymh2b2FyebRTUljkNcb)
 
 ### Tools
 
