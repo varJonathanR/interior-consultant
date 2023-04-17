@@ -14,3 +14,5 @@ This is my solution for 'Interior Consultant' project on [devChallenges.io](http
 ### Preview
 
 ![interior-consultant_prevew](https://github.com/varJonathanR/interior-consultant/blob/main/assets/interior-consultant_preview.png)
+
+[Demo link](https://interior-consultant-varjonathanr.netlify.app/)
